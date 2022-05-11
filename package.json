@@ -1,0 +1,17 @@
+{
+  "name": "blog-flexibledev",
+  "version": "1.0.0",
+  "description": "Hyunmui's flexible development blog",
+  "license": "MIT",
+  "scripts": {
+    "docs:build": "vuepress build blog-flexibledev",
+    "docs:clean-dev": "vuepress dev blog-flexibledev --clean-cache",
+    "docs:dev": "vuepress dev blog-flexibledev"
+  },
+  "devDependencies": {
+    "@vuepress/client": "^2.0.0-beta.43",
+    "vue": "^3.2.33",
+    "vuepress": "^2.0.0-beta.43",
+    "vuepress-theme-hope": "^2.0.0-beta.54"
+  }
+}
