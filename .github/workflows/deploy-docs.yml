@@ -32,8 +32,8 @@ jobs:
         run: yarn run docs:build
 
       - name: Deploy Docs
-        uses: hyunmui/hyunmui.github.io
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           # This is the branch where the docs are deployed to
-          branch: main
+          branch: gh-pages
           folder: blog-flexibledev/.vuepress/dist
