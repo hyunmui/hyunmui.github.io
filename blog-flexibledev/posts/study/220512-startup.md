@@ -14,7 +14,8 @@ tag:
 ## 개발자 로드맵
 
 - [웹 개발자 로드맵](https://github.com/Han-Kyeol/developer-roadmap-kr-)
-- [iOS 개발 로드맵](https://codeground.tistory.com/30)
+- [iOS 개발 로드맵](https://velog.io/@willis18/IOS-%EB%A1%9C%EB%93%9C%EB%A7%B5)
+- [기타 로드맵](https://roadmap.sh/)
 
 ## 시작에 앞서 생각해보기
 
