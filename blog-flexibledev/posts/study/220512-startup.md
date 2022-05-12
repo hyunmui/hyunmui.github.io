@@ -22,6 +22,7 @@ tag:
 ### 개발자?
 
 - 기존에 없던 것을 만들어 내는 사람
+- 개발자 -> 엔지니어 (공학자)
 
 ### 소프트웨어/프로그램?
 
@@ -73,6 +74,7 @@ tag:
   - 화면으로 인해 백엔드의 데이터 구조에 영향을 미치는 경우
 - 백엔드
   - 서비스 중심 아키텍처 (Service-Oriented Architecture)
+    - 비즈니스 로직의 집합소
   - MVC
   - VO (Value object) / DTO (Data Transfer Object)
   - Repository / Entity / ORM
@@ -92,14 +94,40 @@ tag:
     - 코딩 표준 준수
       - [PSR-12](https://psr.kkame.net/accepted/psr-12-extended-coding-style-guide) (PHP), [PEP-8](https://wayhome25.github.io/python/2017/05/04/pep8/) (Python), [Java Coding Convention](https://newwisdom.tistory.com/96) 등
       - 가독성
-  - 변경 쉬움
+  - 변경 쉬움 + 재사용성
     - SOLID
       - 의존 역전 (Inversion of Control)
         - 의존성 주입 (Dependency Injection)
     - 단위 테스트 / 통합 테스트
+    - 형상 관리 도구
+      - 기록된 상태로 되돌리기가 유용해짐
+- 언어
+  - 종류
+    - C/C++
+    - C#
+    - PHP
+    - Python
+    - Java
+      - Kotlin
+      - Scala
+    - Swift
+    - Javascript
+      - Typescript
+    - Ruby
+    - SQL
+  - 기본 자료형에 대한 이해
+  - 자주 사용되는 참조형
+    - 문자열
+    - 시간관련
+      - 일시
+      - 날짜
+      - 시간
+    - 국제화
+  - 지원 패러다임
+    - 객체지향 프로그래밍
+    - 함수형 프로그래밍
   - 바퀴의 재발명 (Don't reinvent the wheel)
     - 외부 오픈소스 라이브러리의 적극 사용
-- 언어
 - 도구
   - 좋은 Tools을 써야 하는 이유
     - 자동화/추상화
@@ -108,6 +136,9 @@ tag:
       - 도구도 누군가가 개발한 결과물이다
   - 형상 관리 도구
     - git
+      - github
+      - gitlab
+      - bitbucket
 
 ### 운영
 
